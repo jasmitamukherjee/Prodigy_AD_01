@@ -2,13 +2,14 @@
   "expo": {
     "name": "calculator",
     "slug": "calculator",
+    "description": "This is a calculator app that helps perform basic mathematical operations.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/myIcon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/myIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jasmita.calculator"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "106a61dc-4238-44ba-b6dc-ed5d533cd400"
+      }
     }
   }
 }
