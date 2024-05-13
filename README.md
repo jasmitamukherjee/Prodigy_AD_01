@@ -50,3 +50,4 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 ## Download apk file to install the app on your android phone
+-https://drive.google.com/file/d/1A_yMyJla9Tym1O2MnQcNz-pFP-bfaEgd/view?usp=sharing
