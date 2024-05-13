@@ -7,19 +7,19 @@ import {Styles} from '../styles/GlobalStyles'
 interface ButtonProps {
     onPress : () => void;
     title: string;
-    isBlue?: boolean;
+    isYellow?: boolean;
     isGray?: boolean;
 
 
 }
 
-export default function Button({title,onPress,isBlue,isGray} : ButtonProps){
+export default function Button({title,onPress,isYellow,isGray} : ButtonProps){
     const theme = useContext(ThemeContext);
     return(
         <TouchableOpacity 
         style={
-            isBlue
-            ? Styles.btnBlue
+            isYellow
+            ? Styles.btnYellow
             : isGray
             ? Styles.btnGray
             : theme === 'light'
@@ -31,7 +31,7 @@ export default function Button({title,onPress,isBlue,isGray} : ButtonProps){
         >
             <Text
             style={
-                isBlue || isGray
+                isYellow || isGray
                 ? Styles.smallTextLight
                 : theme === 'dark'
                 ? Styles.smallTextLight

@@ -3,11 +3,11 @@ import { StyleSheet } from "react-native";
 import { Colors } from "./Colors";
 export const Styles = StyleSheet.create({
   
-        btnBlue:{
+        btnYellow:{
             width : 72,
             height: 72,
-            borderRadius: 24,
-            backgroundColor: Colors.blue,
+            borderRadius: 35,
+            backgroundColor: Colors.yellow,
             justifyContent:"center",
             alignItems:"center",
 
@@ -16,7 +16,7 @@ export const Styles = StyleSheet.create({
         btnDark:{
             width : 72,
             height: 72,
-            borderRadius: 24,
+            borderRadius: 35,
             backgroundColor: Colors.btnDark,
             justifyContent:"center",
             alignItems:"center",
@@ -26,7 +26,7 @@ export const Styles = StyleSheet.create({
         btnLight:{
             width : 72,
             height: 72,
-            borderRadius: 24,
+            borderRadius: 35,
             backgroundColor: Colors.white,
             justifyContent:"center",
             alignItems:"center",
@@ -36,7 +36,7 @@ export const Styles = StyleSheet.create({
         btnGray:{
             width : 72,
             height: 72,
-            borderRadius: 24,
+            borderRadius: 35,
             backgroundColor: Colors.btnGray,
             justifyContent:"center",
             alignItems:"center",
